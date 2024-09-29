@@ -1,0 +1,38 @@
+/* src/components/StepsToScholarship.css */
+.steps-to-scholarship {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #eaf4fe;
+  }
+  
+  .steps-to-scholarship h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .steps-to-scholarship .highlight {
+    color: #ff8c00;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .step-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .dotted-line {
+    width: 50px;
+    height: 2px;
+    background: #ddd;
+    border: 2px dotted #007bff;
+    margin: 0 20px;
+  }
+  

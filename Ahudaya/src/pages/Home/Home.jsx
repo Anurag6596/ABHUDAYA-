@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import "./Home.css"
+import BackedBy from "../../Components/BackedBy";
+import HowItWorks from "../../Components/HowItWorks";
+import StepsToScholarship from "../../Components/StepsToScholarship";
 export default function Home() {
   return (
     <>
@@ -29,6 +32,9 @@ export default function Home() {
           </div> */}
         </div>
       </section>
+      <BackedBy/>
+      {/* <HowItWorks/> */}
+      <StepsToScholarship />
     </>
   );
 }
