@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
-import "./Home.css"
+import "./Home.css";
 import BackedBy from "../../Components/BackedBy";
 import HowItWorks from "../../Components/HowItWorks";
 import StepsToScholarship from "../../Components/StepsToScholarship";
@@ -24,7 +24,7 @@ export default function Home() {
           </form>
         </div>
         <div className="right-content">
-          <img src="/images/girl.png" alt="Graduated Student" width={300}/>
+          <img src="/images/girl.png" alt="Graduated Student" width={300} />
           {/* <div className="student-help">
             <p>
               <strong>5000+</strong> Student Help
@@ -32,9 +32,9 @@ export default function Home() {
           </div> */}
         </div>
       </section>
-      <BackedBy/>
-      {/* <HowItWorks/> */}
       <StepsToScholarship />
+      <BackedBy />
+      {/* <HowItWorks/> */}
     </>
   );
 }
