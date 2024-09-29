@@ -1,9 +1,11 @@
-import React from "react";
+// import React from "react";
 import Navbar from "../../Components/Navbar";
 import "./Home.css";
 import BackedBy from "../../Components/BackedBy";
-import HowItWorks from "../../Components/HowItWorks";
+// import HowItWorks from "../../Components/HowItWorks";
 import StepsToScholarship from "../../Components/StepsToScholarship";
+// import ScholarshipCard from "../../Components/scholarshipCard";
+import ScholarshipSlider from "../../Components/scholarshipSlider";
 export default function Home() {
   return (
     <>
@@ -34,6 +36,8 @@ export default function Home() {
       </section>
       <StepsToScholarship />
       <BackedBy />
+      {/* <ScholarshipCard/> */}
+      <ScholarshipSlider/>
       {/* <HowItWorks/> */}
     </>
   );
