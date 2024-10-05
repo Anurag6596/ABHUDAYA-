@@ -6,6 +6,8 @@ import BackedBy from "../../Components/BackedBy";
 import StepsToScholarship from "../../Components/StepsToScholarship";
 // import ScholarshipCard from "../../Components/scholarshipCard";
 import ScholarshipSlider from "../../Components/scholarshipSlider";
+import PhoneMockup from "../../Components/phoneMockup";
+import WhatWeOffer from "../../Components/whatWeOffer";
 export default function Home() {
   return (
     <>
@@ -38,6 +40,8 @@ export default function Home() {
       <BackedBy />
       {/* <ScholarshipCard/> */}
       <ScholarshipSlider/>
+      <PhoneMockup/>
+      <WhatWeOffer/>
       {/* <HowItWorks/> */}
     </>
   );

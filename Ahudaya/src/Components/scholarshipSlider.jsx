@@ -1,5 +1,5 @@
-// src/components/ScholarshipSlider.js
-import React from 'react';
+
+// import React from 'react';
 import Slider from 'react-slick';
 import ScholarshipCard from './ScholarshipCard';
 import 'slick-carousel/slick/slick.css';
